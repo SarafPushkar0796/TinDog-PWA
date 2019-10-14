@@ -1,0 +1,128 @@
+p{color: #8f8f8f;}
+
+/* Font-family */
+body,.custom-h1,.custom-h2,.custom-h3,.nav-link,.cta-h3{font-family: "Montserrat";}
+
+/* Background color */
+#testimonials,#press{background-color: #EF9A9A;}
+
+/* Text Alignment - center */
+#footer,#cta,#pricing,#press,#testimonials,.feature-box,.cta-h3{text-align: center;}
+
+/* Font color white */
+#testimonials,#cta,#title,.cta-h3{color: white;}
+
+/* Padding */
+#cta,.carousel-item{padding: 7% 15%;}
+
+/* Line height */
+.custom-h1,.custom-h2{line-height: 1.5;}
+
+/* font weight */
+.custom-h2,.custom-h3{font-weight: 600;}
+
+/* Title section */
+#title{background-color: #ff4c68;}
+
+.custom-h1 {
+   font-size: 3rem;
+   font-weight: 900;
+   margin-top: 5%;
+}
+
+.custom-h3{font-size: 1.5rem;}
+
+.custom-h2{font-size: 1.7rem;}
+
+/* Navbar */
+.navbar{padding: 0 0 4.5rem;}
+
+.nav-item{padding: 0 18px;}
+
+.nav-link{font-size: 1rem;}
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* Features section */
+#features{
+	padding: 7% 15%;
+	background-color: white;
+	/* required for z-index to work */
+	position: relative;
+	z-index: 1;
+}
+
+.feature-box{padding: 5%;}
+
+.icon{
+	color: #ef8172;
+	font-size: 3.5rem;
+	margin-bottom: 1rem;
+}
+
+.icon:hover{color: #ff4c68;cursor: pointer;}
+
+.container-fluid{
+	/* top-bottom, left-right */
+	padding: 3% 15% 7%;
+}
+
+/* Android and Apple download buttons */
+.download-button{margin: 5% 3% 5% 0;}
+
+/* Title image */
+.title-image{
+	width: 60%;
+	transform: rotate(15deg);
+	position: absolute;
+	z-index: 0;
+	left: 0%;
+}
+
+/* Testimonials section */
+.testimonial-img{
+	width: 12%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+/* Press section */
+#press{padding-bottom: 3%;}
+
+.press-logo{
+	width: 15%;
+	margin: 0 1% 2% 1%;
+}
+
+/* Pricing section */
+#pricing{padding: 100px;}
+
+.pricing-column{padding: 3% 2%;}
+
+/* Contact section */
+#cta{background-color: #ff4c68;}
+
+.cta-h3{
+    font-size: 28px;
+    margin: 2% 2% 2% 2%;
+}
+
+.cta-download-button{margin: 2% 2% 2% 2%;}
+
+.cta-icon{color: black;}
+
+.footer-icon{margin: 3% 3% 3% 3%;}
+
+/* Responsiveness For tablet and mobile devices */
+@media (max-width: 1028px){
+	#title{text-align: center;}
+
+	.title-image{
+		position: static;
+		transform: rotate(0deg);
+	}
+}
