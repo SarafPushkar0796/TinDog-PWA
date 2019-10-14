@@ -2,6 +2,13 @@ const staticCacheName = 'site-static-v1';
 
 const assets = [
   './',
+  './images/bizinsider.png',
+  './images/dog-img.jpg',
+  './images/iphone6.png',
+  './images/lady-img.jpg',
+  './images/mashable.png',
+  './images/TechCrunch.png',
+  './images/tnw.png',
   './index.html',
   './css/styles.css',
   './css/bootstrap.css',
